@@ -8,6 +8,31 @@ header {
 	width: 100%;
 	padding: 20px
 }
+.nav {
+  font-size: .9em;
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+.dropdown {
+  position: left;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 #headerLeft{
 	width: 47%;
 	clear: left;
@@ -22,7 +47,7 @@ header h1{
 }
 	
 img#bagpipe {
-	width: 9%;
+	width: 8%;
 	position: relative;
 	overflow: auto;
 	display: block;
@@ -103,4 +128,20 @@ p#tuneParagraph {
 p#tune {
     font-size: 3em;
 	color: white
+}
+
+a:link{
+  color:blue;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+  color:orange;
+}
+a:focus{
+  color:green;
+}
+a:active{
+  color:red;
 }
