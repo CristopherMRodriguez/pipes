@@ -8,46 +8,46 @@ function beba() {
   switch (tuneSelect) {
     case "choon": yolo = choon;
     break;
-    case "any": yolo = allTunes[Math.floor(Math.random() * allTunes.length)];
+    case "any": let allTunesri = Math.floor(Math.random() * allTunes.length); yolo = allTunes[allTunesri]; allTunes.splice(allTunesri, 1); if (allTunes.length === 0) {window.location.reload();}
     break;
-    case "6/8": yolo = six8[Math.floor(Math.random() * six8.length)];
+    case "6/8": let sixri = Math.floor(Math.random() * six8.length); yolo = six8[sixri]; six8.splice(sixri, 1); if (six8.length === 0) {window.location.reload();}
     break;
-    case "9/8": yolo = nine8[Math.floor(Math.random() * nine8.length)]; 
+    case "9/8": let nineri = Math.floor(Math.random() * nine8.length); yolo = nine8[nineri]; six8.splice(sixri, 1); if (nine8.length === 0) {window.location.reload();}
     break;
-    case "2/4": yolo = two4[Math.floor(Math.random() * two4.length)]; 
+    case "2/4": let twori = Math.floor(Math.random() * two4.length); yolo = two4[twori]; two4.splice(twori, 1); if (two4.length === 0) {window.location.reload();}
     break;
-    case "3/4": yolo = three4[Math.floor(Math.random() * three4.length)]; 
+    case "3/4": let threeri = Math.floor(Math.random() * three4.length); yolo = three4[threeri]; three4.splice(threeri, 1); if (three4.length === 0) {window.location.reload();}
     break;
-    case "4/4": yolo = four4[Math.floor(Math.random() * four4.length)];
+    case "4/4": let fourri = Math.floor(Math.random() * four4.length); yolo = four4[fourri]; four4.splice(fourri, 1); if (four4.length === 0) {window.location.reload();}
     break;
-    case "exercises": yolo = exercises[Math.floor(Math.random() * exercises.length)]; 
+    case "exercises": let exri = Math.floor(Math.random() * exercises.length); yolo = exercises[exri]; exercises.splice(exri, 1);  if (exercises.length === 0) {window.location.reload();}
     break;
-    case "funeral": yolo = funeral[Math.floor(Math.random() * funeral.length)]; 
+    case "funeral": let funri = Math.floor(Math.random() * fun.length); yolo = fun[funri]; fun.splice(funri, 1); if (funeral.length === 0) {window.location.reload();}
     break;
-    case "grade5Comp": yolo = grade5Comp[Math.floor(Math.random() * grade5Comp.length)];
+    case "grade5Comp": let grade5Compri = Math.floor(Math.random() * grade5Comp.length); yolo = grade5Comp[grade5Compriri]; grade5Comp.splice(grade5Compriri, 1); if (grade5Comp.length === 0) {window.location.reload();}
     break;
-    case "grade4Comp": yolo = grade4Comp[Math.floor(Math.random() * grade4Comp.length)]; 
+    case "grade4Comp": let grade4Compri = Math.floor(Math.random() * grade4Comp.length); yolo = grade4Comp[grade4Compriri]; grade4Comp.splice(grade4Compriri, 1); if (grade4Comp.length === 0) {window.location.reload();}
     break;
-	case "grade3Comp": yolo = grade3Comp[Math.floor(Math.random() * grade3Comp.length)]; 
+	case "grade3Comp": let grade3Compri = Math.floor(Math.random() * grade3Comp.length); yolo = grade3Comp[grade3Compriri]; grade3Comp.splice(grade3Compriri, 1); if (grade3Comp.length === 0) {window.location.reload();}
     break;
-	case "grade2SoloCris": yolo = grade2SoloCris[Math.floor(Math.random() * grade2SoloCris.length)]; 
+	case "grade2SoloCris": let grade2SoloCrisri = Math.floor(Math.random() * grade2SoloCris.length); yolo = grade2SoloCris[grade2SoloCrisri]; grade2SoloCris.splice(grade2SoloCrisri, 1); if (grade2SoloCris.length === 0) {window.location.reload();}
     break;
-    case "hornpipe": yolo = hornpipe[Math.floor(Math.random() * hornpipe.length)]; 
+    case "hornpipe": let hornpiperi = Math.floor(Math.random() * hornpipe.length); yolo = hornpipe[hornpiperi]; hornpipe.splice(hornpiperi, 1); if (hornpipe.length === 0) {window.location.reload();}
     break;
-    case "jig": yolo = jig[Math.floor(Math.random() * jig.length)]; 
+    case "jig": let jigri = Math.floor(Math.random() * jig.length); yolo = jig[jigri]; jig.splice(jigri, 1); if (jig.length === 0) {window.location.reload();}
     break;
-    case "peripheal": yolo = peripheal[Math.floor(Math.random() * peripheal.length)]; 
+    case "peripheal": let periphealri = Math.floor(Math.random() * peripheal.length); yolo = peripheal[periphealri]; peripheal.splice(periphealri, 1); if (peripheal.length === 0) {window.location.reload();}
     break;
-    case "piobaireachd": yolo = piob[Math.floor(Math.random() * piob.length)];
+    case "piobaireachd": let piobri = Math.floor(Math.random() * piob.length); yolo = piob[piobri]; piob.splice(piobri, 1); if (piob.length === 0) {window.location.reload();}
     break;
-    case "reel": yolo = reel[Math.floor(Math.random() * reel.length)]; 
+    case "reel": let reelri = Math.floor(Math.random() * reel.length); yolo = reel[reelri]; reel.splice(reelri, 1); if (reel.length === 0) {window.location.reload();}
     break;
-    case "strathspey": yolo = strathspey[Math.floor(Math.random() * strathspey.length)]; 
+    case "strathspey": let strathspeyri = Math.floor(Math.random() * strathspey.length); yolo = strathspey[strathspeyri]; strathspey.splice(strathspeyri, 1); if (strathspey.length === 0) {window.location.reload();}
     break;
-    case "slowAir": yolo = slowAir[Math.floor(Math.random() * slowAir.length)]; 
+    case "slowAir": let slowAirri = Math.floor(Math.random() * slowAir.length); yolo = slowAir[slowAirri]; slowAir.splice(slowAirri, 1); if (slowAir.length === 0) {window.location.reload();}
+    break; 
+    case "sR": let sRri = Math.floor(Math.random() * sR.length); yolo = sR[sRri]; sR.splice(sRri, 1); if (sR.length === 0) {window.location.reload();}
     break;
-    case "sR": yolo = sR; 
-    break;  
   }
     //outputs the tune generator JS into HTML
   document.getElementById("tune").innerHTML = yolo;  
@@ -94,10 +94,7 @@ const slowAir = ["Danish Knifegrinder", "The Eastern Townships", "The Dark Islan
 const strathspey = ["Annie Grant", "The Caledonian Society of London", "Aspen Bank", "The Shepherd's Crook", "Maggie Cameron", "The Ewe with the Crooked Horn", "Dora MacLeod", "Molly Connell", "Ghillie Callum", "Sound of Sleat", "Maids of the Black Glen"];
 
   //Sub-Array 1 lists strathspey; Sub-Array 2 for reel;
-const sRArrays = [["Maggie Cameron", "The Shepherd's Crook"], ["Lachlan McPhail of Tiree", "The Cockerel in the Creel"]];
-
-  //adds random strathspey with a random reel 
-const sR = sRArrays[0][Math.floor(Math.random() * sRArrays[0].length)] + " \n & \n " + sRArrays[1][Math.floor(Math.random() * sRArrays[1].length)];
+const sR = [["Maggie Cameron", "Lachlan McPhail of Tiree"], ["The Shepherd's Crook", "The Cockerel in the Creel"]]; 
 
   // add all arrays/tunes into one array
 const allTunesArray = [...nine8, ...six8, ...nine8, ...two4, ...three4, ...four4, ...hornpipe, ...jig, ...piob, ...reel, ...strathspey, ...slowAir];
