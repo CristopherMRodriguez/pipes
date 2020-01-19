@@ -5,6 +5,8 @@
     <title>Pipe Tune Generator</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script type="text/javascript" src="js.js"></script>
+    <script src="https://kit.fontawesome.com/c4e9bbec73.js" crossorigin="anonymous"></script>	
+
   </head>
     
   <body>
@@ -16,7 +18,7 @@
         </div>
 	  </div>
 		  <a class="nav" href="mailto:crod1234@gmail.com?Subject=Pipe%20Generator">Email</a>  
-	    </div>
+	
       <div id="headerLeft">
         <h1>
           Tune Generator
@@ -26,7 +28,7 @@
 	    <img id="bagpipe" src="bagpipe.jpg" alt="A Bagpipe">
       </div>	  
      </header>
-   <section id="bigGen">
+   <section id="gGen">
     <div class="gen">
     <form id="pickTune">
       <h2>Select<br> Category</h2>
@@ -57,16 +59,31 @@
          </select>
         </p>
       </form>
-        <input id="buttonAgain" type="button" value="More Tunes" onclick="beba();"
-     </div>
+      <input class="button" id="buttonAgain" type="button" value="More Tunes" onclick="beba();"
+      </div>
     </section>
      
-      <div class="response">
-       <p id="tuneParagraph">
+    <div class="response">
+      <p id="tuneParagraph">
           The Tune Generator Chooses:
-       </p>
-       <p id="tune">Pick a Choon.</p>
-      </div> 
+      </p>
+      <p id="tune">Pick a Choon.</p>
+       
+      <a href="tunes/Book03%2018a.pdf" target="_blank" download>
+        <button class="button"><i class="fas fa-file-pdf"></i>     Download This Tune</button>
+	  </a>
+		  
+	  <a href="tunes/Book03%2018a.pdf" target="_blank">
+		   <button class="button">Display Tune</button>
+	  <br>
+		  
+	  <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+		  
+    </div> 
     
   </body>
       
