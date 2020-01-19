@@ -1,5 +1,5 @@
   //tune generator function
-
+ "use strict";
 function beba() {
   var yolo = "";
   //inputs the HTML's Select Tune Style
@@ -22,13 +22,13 @@ function beba() {
     break;
     case "exercises": let exri = Math.floor(Math.random() * exercises.length); yolo = exercises[exri]; exercises.splice(exri, 1);  if (exercises.length === 0) {window.location.reload();}
     break;
-    case "funeral": let funri = Math.floor(Math.random() * fun.length); yolo = fun[funri]; fun.splice(funri, 1); if (funeral.length === 0) {window.location.reload();}
+    case "funeral": let funri = Math.floor(Math.random() * funeral.length); yolo = funeral[funri]; funeral.splice(funri, 1); if (funeral.length === 0) {window.location.reload();}
     break;
-    case "grade5Comp": let grade5Compri = Math.floor(Math.random() * grade5Comp.length); yolo = grade5Comp[grade5Compriri]; grade5Comp.splice(grade5Compriri, 1); if (grade5Comp.length === 0) {window.location.reload();}
+    case "grade5Comp": let grade5Compri = Math.floor(Math.random() * grade5Comp.length); yolo = grade5Comp;[grade5Compri]; grade5Comp.splice(grade5Compri, 1); if (grade5Comp.length === 0) {window.location.reload();}
     break;
-    case "grade4Comp": let grade4Compri = Math.floor(Math.random() * grade4Comp.length); yolo = grade4Comp[grade4Compriri]; grade4Comp.splice(grade4Compriri, 1); if (grade4Comp.length === 0) {window.location.reload();}
+    case "grade4Comp": let grade4Compri = Math.floor(Math.random() * grade4Comp.length); yolo = grade4Comp[grade4Compri]; grade4Comp.splice(grade4Compri, 1); if (grade4Comp.length === 0) {window.location.reload();}
     break;
-	case "grade3Comp": let grade3Compri = Math.floor(Math.random() * grade3Comp.length); yolo = grade3Comp[grade3Compriri]; grade3Comp.splice(grade3Compriri, 1); if (grade3Comp.length === 0) {window.location.reload();}
+	case "grade3Comp": let grade3Compri = Math.floor(Math.random() * grade3Comp.length); yolo = grade3Comp[grade3Compri]; grade3Comp.splice(grade3Compri, 1); if (grade3Comp.length === 0) {window.location.reload();}
     break;
 	case "grade2SoloCris": let grade2SoloCrisri = Math.floor(Math.random() * grade2SoloCris.length); yolo = grade2SoloCris[grade2SoloCrisri]; grade2SoloCris.splice(grade2SoloCrisri, 1); if (grade2SoloCris.length === 0) {window.location.reload();}
     break;
@@ -93,7 +93,7 @@ const slowAir = ["Danish Knifegrinder", "The Eastern Townships", "The Dark Islan
 
 const strathspey = ["Annie Grant", "The Caledonian Society of London", "Aspen Bank", "The Shepherd's Crook", "Maggie Cameron", "The Ewe with the Crooked Horn", "Dora MacLeod", "Molly Connell", "Ghillie Callum", "Sound of Sleat", "Maids of the Black Glen"];
 
-  //Sub-Array 1 lists strathspey; Sub-Array 2 for reel;
+  //Sub-Array 1 lists strathspey array; Sub-Array 2 is for reel array;
 const sR = [["Maggie Cameron", "Lachlan McPhail of Tiree"], ["The Shepherd's Crook", "The Cockerel in the Creel"]]; 
 
   // add all arrays/tunes into one array
@@ -102,7 +102,7 @@ const allTunesArray = [...nine8, ...six8, ...nine8, ...two4, ...three4, ...four4
 const allTunes = [...new Set(allTunesArray)];
 
 
-const grade5Comp=[];
+const grade5Comp=["TBD"];
 
 const grade4Comp=["Danish Knifegrinder", "Fr. John MacMillan of Barra", "Greenwoodside", "Biddy the Bowl Wife", "Aspen Bank", "Molly Connell", "Maids of the Black Glen", "The High Road to Linton"];
 
@@ -115,4 +115,6 @@ const grade4SoloEnter = [];
 const grade3SoloEnter = [];
 const grade2SoloEnter = [];
 
+function download() {
+}
 
