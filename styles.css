@@ -2,7 +2,7 @@ header {
     background-color: white;
     font-size: 1.6em;
     font-family: monospace;
-    border: px solid black;
+    border: 3px solid black;
 	border-radius: 20px;
 	float: left;
 	width: 100%;
@@ -29,6 +29,9 @@ header {
   z-index: 1;
 }
 
+audio {
+	margin: 20px;	
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -116,6 +119,9 @@ p#sel {
 select {
 	height:30px; 
 	border: 2px solid black;
+    cursor: pointer;
+
+	
     }
 
 /*The Tune Generator Chooses*/
@@ -145,3 +151,9 @@ a:focus{
 a:active{
   color:red;
 }
+
+.button {
+	  cursor: pointer;
+
+}
+
