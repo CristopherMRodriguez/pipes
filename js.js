@@ -8,7 +8,7 @@ function beba() {
   switch (tuneSelect) {
     case "choon": yolo = choon;
     break;
-    case "any": let allTunesri = Math.floor(Math.random() * allTunes.length); yolo = allTunes[allTunesri]; allTunes.splice(allTunesri, 1); if (allTunes.length === 0) {window.location.reload();}
+    case "any": let getLuckyArrayNoDuplicatesri = Math.floor(Math.random() * getLuckyArrayNoDuplicates.length); yolo = getLuckyArrayNoDuplicates[getLuckyArrayNoDuplicatesri]; getLuckyArrayNoDuplicates.splice(getLuckyArrayNoDuplicatesri, 1); if (getLuckyArrayNoDuplicates.length === 0) {window.location.reload();}
     break;
     case "6/8": let sixri = Math.floor(Math.random() * six8.length); yolo = six8[sixri]; six8.splice(sixri, 1); if (six8.length === 0) {window.location.reload();}
     break;
@@ -55,56 +55,55 @@ function beba() {
 
     //tunes array list var environment
 
-const choon = "I said.... pick ah choon style..."
+const choon = "I said.... pick ah choon style...";
 
 const six8 = ["Jean Mauchline", "Trees of North Uist", "Frank Thompson", "Brian Boru's March",
-"Garryowen", "The Steam Boat", "Bonnie Dundee", "The Glendaruel Highlanders"];
+"Garryowen", "Steam Boat", "Bonnie Dundee", "Glendaruel Highlanders"];
 
 const nine8 = ["Danish Knifegrinder"];
 
-const two4 = ["The Black Bear", 
+const two4 = ["Black Bear", 
 "Siege of Delhi", "Arthur Bignould",
 "John MacDonald's Welcome to South Uist",
 "Pipe Major Willie Grey's Farewell to Glasgow Police Pipeband",
-"Mrs. Donald McLean", "Fr. John MacMillan of Barra", "Donald MacLellan of Rothesay", "Prince Charles Welcome to Lochaber", "Duncan MacInnes", "The Haughs of Cromdale", "Muir of Ord", "The Black Bear", "Nil Se'n La", "The Hills of Kintail", "Jimmy Young", "Highland Wedding", "Greenwoodside", "Brown Haired Maiden", "Piper's Cove", "High Road to Gareloch", "Lady Lever Park"];
+"Mrs. Donald McLean", "Fr. John MacMillan of Barra", "Donald MacLellan of Rothesay", "Prince Charles Welcome to Lochaber", "Duncan MacInnes", "Haughs of Cromdale", "Muir of Ord", "Nil Se'n La", "Hills of Kintail", "Jimmy Young", "Highland Wedding", "Greenwoodside", "Brown Haired Maiden (2/4 March)", "Piper's Cove", "High Road to Gareloch", "Lady Lever Park"];
 
 const three4 = ["When the Battle's Over", "Lochanside", "Green Hills of Tyrol", "Red Hackle Pipe Band", "Mary Grant of Lochgelly"];
 
-const four4 = ["Minstel Boy", "Wearing of the Green", "Molly Darlin'", "Sean South of Garryowen", "Scotland the Brave", "42nd Highlanders", "Rowan Tree", "Yankee Doodle Dandy", "Grand Old Flag", "Marine Corp Hymn", "America the Beautiful", "Dawning of the Day", "Kelly the Boy from Killane", "Boys of Cork", "Boys of Wexford", "Let Erin Remember", "Nation Once Again", "Cabar Feidh", "The Cork Pipe Band of New York City", "Battle of Waterloo", "Galloway Hills", "Mo Ghile Mear"];
+const four4 = ["Minstel Boy", "Wearing of the Green", "Molly Darlin'", "Sean South of Garryowen", "Scotland the Brave", "42nd Highlanders", "Rowan Tree", "Yankee Doodle Dandy", "Grand Old Flag", "Marine Corp Hymn", "America the Beautiful", "Dawning of the Day", "Kelly the Boy from Killane", "Boys of Cork", "Boys of Wexford", "Let Erin Remember", "Nation Once Again", "Cabar Feidh (March)", "Cork Pipe Band of New York City", "Battle of Waterloo", "Galloway Hills", "Mo Ghile Mear (March Version)", "God Bless America"];
 
 const exercises = ["Double Cut Tachum", "Bruce Gandy Tachums", "Tachums (C/B, B/A, A/G)", "Double Cut Trachums", "Taorluath, Crunluath, A Mach", "Master Cross Noise", "Master 'G' Gracenote, Master Doublings", "Strathspey Triplets", "D Throw: Open Vs. Closed", "'A' Half Doubling", "E/F Doublings", "Birl"];
 
-const funeral = ["Scotland the Brave", "Rowan Tree", "Dawning of the Day", "Let Erin Remember", "The Dark Island", "Irish Soldier Boy", "Mo Ghile Mear",
-"Valley of Knockanuer", "Spancil Hill", "Lady of Knock", "Lord Lovat's Lament", "God Bless America", "Green Hills of Tyrol", "When the Battles Over", "Taps", "Lament for the Old Sword", "Amazing Grace", "Danny Boy", "Going Home"];
+const funeral = ["Scotland the Brave", "Rowan Tree", "Dawning of the Day", "Let Erin Remember", "Dark Island", "Irish Soldier Boy", "Mo Ghile Mear (Slow Air Version)",
+"Valley of Knockanuer", "Spancil Hill", "Lady of Knock", "Lord Lovat's Lament", "God Bless America", "Green Hills of Tyrol", "When the Battle's Over", "Taps", "Lament for the Old Sword", "Amazing Grace", "Danny Boy", "Going Home"];
 
-const hornpipe = ["The Clumsy Lover",
-"The Mason's Apron", "PM Calum Campbell's Caprice", "PM George Allan", "Beverly's Wedding"];
+const hornpipe = ["Clumsy Lover",
+"Mason's Apron", "PM Calum Campbell's Caprice", "PM George Allan", "Beverly's Wedding"];
 
 const jig = ["Merrily Danced the Quaker's Wife", "Trippin' Up the Stairs", "Walking the Floor", "Dunrovin Farm", "Rocking the Baby", "Connaught Man's Rambles", "Cork Hill", "Ferryside Lassies", "Molly's Jig", "Biddy the Bowl Wife"];
 
-const peripheal = ["The Irish Set", "The Scottish Set", "American Set", "The 3/4 Set", "The 6/8 Set", 'The "Big" 6/8 Set', "Gardens of Skye Set", "Cutting Bracken Set"];
+const peripheal = ["Irish Set", "Scottish Set", "American Set", "3/4 Set", "6/8 Set", '"Big" 6/8 Set', "Gardens of Skye Set", "Cutting Bracken Set"];
 
 const piob = ["Lament for the Old Sword", "Marquis of Argyll's Salute"];
 //const piob2 = piob;
 
-const reel = ["Willie Davie", "Brown Haired Maid", "Jock Wilson\'s Ball", "Lexy McAskill", "John Keith Liang", "Malts on the Optics", "Lachlan McPhail of Tiree", "Cockerel in the Creel", "Charlie's Welcome", "The High Road to Linton", "Sound of Sleet (reel)", "In and Out the Harbor"];
+const reel = ["Willie Davie", "Brown Haired Maid (Reel)", "Jock Wilson\'s Ball", "Lexy McAskill", "John Keith Liang", "Malts on the Optics", "Lachlan McPhail of Tiree", "Cockerel in the Creel", "Charlie's Welcome", "High Road to Linton", "Sound of Sleet (reel)", "In and Out the Harbor"];
 
-const slowAir = ["Danish Knifegrinder", "The Eastern Townships", "The Dark Island", "Irish Soldier Boy", "Mo Ghile Mear", "Valley of Knockanuer", "Spancil Hill", "Lord Lovat's Lament", "Taps", "Amazing Grace", "Danny Boy", "Going Home"];
+const slowAir = ["Danish Knifegrinder", "Eastern Townships", "Dark Island", "Irish Soldier Boy", "Mo Ghile Mear (Slow Air Version)", "Valley of Knockanuer", "Spancil Hill", "Lord Lovat's Lament", "Taps", "Amazing Grace", "Danny Boy", "Going Home", "Lady of Knock"];
 
-const strathspey = ["Annie Grant", "The Caledonian Society of London", "Aspen Bank", "The Shepherd's Crook", "Maggie Cameron", "The Ewe with the Crooked Horn", "Dora MacLeod", "Molly Connell", "Ghillie Callum", "Sound of Sleat", "Maids of the Black Glen"];
+const strathspey = ["Annie Grant", "Caledonian Society of London", "Aspen Bank", "Shepherd's Crook", "Maggie Cameron", "Ewe with the Crooked Horn", "Dora MacLeod", "Molly Connell", "Ghillie Callum", "Sound of Sleat", "Maids of the Black Glen"];
 
   //Sub-Array 1 lists strathspey array; Sub-Array 2 is for reel array;
-const sR = [["Maggie Cameron", "Lachlan McPhail of Tiree"], ["The Shepherd's Crook", "The Cockerel in the Creel"]]; 
+const sR = [["Maggie Cameron", "Lachlan McPhail of Tiree"], ["Shepherd's Crook", "Cockerel in the Creel"]]; 
 
   // add all arrays/tunes into one array
-const allTunesArray = [...nine8, ...six8, ...nine8, ...two4, ...three4, ...four4, ...hornpipe, ...jig, ...piob, ...reel, ...strathspey, ...slowAir];
+const getLuckyArray = [...two4, ...three4, ...four4, ...six8, ...hornpipe, ...jig, ...piob, ...reel, ...slowAir, ...strathspey];
   //removes any duplicates
-const allTunes = [...new Set(allTunesArray)];
-
+const getLuckyArrayNoDuplicates = [...new Set(getLuckyArray)];
 
 const grade5Comp=["TBD"];
 
-const grade4Comp=["Danish Knifegrinder", "Fr. John MacMillan of Barra", "Greenwoodside", "Biddy the Bowl Wife", "Aspen Bank", "Molly Connell", "Maids of the Black Glen", "The High Road to Linton"];
+const grade4Comp=["Danish Knifegrinder", "Fr. John MacMillan of Barra", "Greenwoodside", "Biddy the Bowl Wife", "Aspen Bank", "Molly Connell", "Maids of the Black Glen", "High Road to Linton"];
 
 const grade3Comp=["Donald MacLellan of Rothesay", "Dora MacLeod", "Brown Haired Maid"];
 
@@ -117,4 +116,10 @@ const grade2SoloEnter = [];
 
 function download() {
 }
+
+//an array of the entries from all of the above arrays.
+const allTunes = [...two4, ...three4, ...four4, ...six8, ...exercises, ...funeral, ...hornpipe, ...jig, ...piob, ...reel, ...slowAir, ...strathspey];
+
+//alphabetizes and removes duplicates from allTunes
+var all = [...new Set(allTunes.sort())];
 
