@@ -10,34 +10,49 @@
   </head>
     
   <body>
+	  
     <header>
-	  <div class="dropdown">
+		
+	   <div class="topnav"> 
+		   
+	    <div class="dropdown">
+			
 		  <span>About</span>
-	   	<div class="dropdown-content">
-          <p>Bagpiping requires a high degree of memorization. To practice, random memory practice is the best way to train the mind to quickly recall tunes. The select category below allows one to choose certain areas a person is working on.  If “you are feeling lucky”, the generator will select a random tune from any category.</p>
-        </div>
+			
+	    	<div class="dropdown-content">
+              <p>Bagpiping requires a high degree of memorization. To practice, random memory practice is the best way to train the mind to quickly recall tunes. The select category below allows one to choose certain areas a person is working on.  If “you are feeling lucky”, the generator will select a random tune from any category.</p>
+				
+            </div>
+			
+	      </div>
+		   
+		<a class="topnav" href="mailto:crod1234@gmail.com?Subject=Pipe%20Generator">Email</a> 
+		   
+	    <input class="topnav" type="text" placeholder="Search for Tune">
+		   
 	  </div>
-		  <a class="nav" href="mailto:crod1234@gmail.com?Subject=Pipe%20Generator">Email</a>  
-	
-      <div id="headerLeft">
+		
+		<img id="bagpipe" src="bagpipe.jpg" 
+        alt="A Bagpipe">
+	  
         <h1>
           Tune Generator
         </h1>
-	  </div>
-	  <div id="headerRight">
-	    <img id="bagpipe" src="bagpipe.jpg" alt="A Bagpipe">
-      </div>	  
+		
+		
      </header>
+	  
+	  
    <section id="gGen">
-    <div class="gen">
-    <form id="pickTune">
-      <h2>Select<br> Category</h2>
-      <p id="sel">   
+     <div class="gen">
+       <form id="pickTune">
+         <h2>Select<br> Category</h2>
+         <p id="sel">   
 	
-        <select id="dropTunes" onchange="beba();">
+           <select id="dropTunes" onchange="beba();">
               <option value="choon">Choose Category</option>
               <option value="any"> I'm Feeling Lucky <span>&#9752;</span></option>
-              <!<option value="9/8"> 9/8 </option>>
+              <!--<option value="9/8"> 9/8 </option>-->
               <option value="2/4"> 2/4 March </option>
               <option value="3/4"> 3/4 March </option>
               <option value="4/4"> 4/4 March</option>
@@ -56,12 +71,17 @@
               <option value="slowAir"> Slow Airs </option>
               <option value="strathspey"> Strathspeys </option>
               <option value="sR"> Strathspey/Reel </option>
-         </select>
+          </select>
+		 
         </p>
+	   
       </form>
+	  
       <input class="button" id="buttonAgain" type="button" value="More Tunes" onclick="beba();"
-      </div>
-    </section>
+			 
+    </div>
+	  
+  </section>
      
     <div class="response">
       <p id="tuneParagraph">
@@ -70,7 +90,7 @@
       <p id="tune">Pick a Choon.</p>
        
       <a href="tunes/Book03%2018a.pdf" target="_blank" download>
-        <button class="button"><i class="fas fa-file-pdf"></i>     Download This Tune</button>
+        <button class="button"><i class="fas fa-file-pdf"></i>     Download Tune</button>
 	  </a>
 		  
 	  <a href="tunes/Book03%2018a.pdf" target="_blank">
@@ -78,10 +98,10 @@
 	  <br>
 		  
 	  <audio controls>
-        <source src="horse.ogg" type="audio/ogg">
-        <source src="horse.mp3" type="audio/mpeg">
+        <source src="" type="audio/mpeg">
       Your browser does not support the audio element.
       </audio>
+		  
 		  
     </div> 
     
