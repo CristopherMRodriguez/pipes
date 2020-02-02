@@ -4,9 +4,9 @@ header {
     font-family: monospace;
     border: 3px solid black;
 	border-radius: 20px;
-	width: 100%;
+	width: 96%;
 	padding: 20px
-}
+}                            
 
 .topnav {
   background-color: white;
@@ -59,7 +59,8 @@ h2 {
 
 body {
  background-image: url("scotland.jpg");    
- margin: 4.5em;
+ margin: 2em;
+ height: 100vh;
 }
 
 /*div 1*/
@@ -92,16 +93,13 @@ p#sel, #buttonAgain {
 	
 }
 
-p#sel {
-	margin-top: 0px;
-}
+
 
 /*More Tunes button*/
 #buttonAgain {
     margin: -20px -50px; 
     position: relative;
     top:50%; 
-    left:40%;
 	margin-top: 20px;
 
 }
@@ -152,5 +150,38 @@ a:active{
 }
 
 audio {
-	margin: 15px;
+}
+
+#search-tune {
+  width: 20%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid black;
+  margin-bottom: 12px; 
+}
+
+ul#wrapper{
+	display: none;
+	list-style: none;
+	position: absolute;
+	z-index: 1;
+	width: 300px;
+	height: 300px;
+	background-color: white; 
+	z-index: 1;
+	
+}
+
+ul#wrapper a{
+	color: red;
+	line-height: 30px;
+}
+
+li {
+	border: 3px solid black;
+	padding: 20px;
+}
+
+sel{
+	text-align: center
 }
