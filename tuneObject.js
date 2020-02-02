@@ -1,6 +1,6 @@
 "use strict";
 
-const choonObj = {name: "I said.... pick ah choon style..."};
+const choonObj = {name: "I said.... pick ah choon style...", style: "choon", mp3: ""};
 
 
 //all the tunes in objects array.
