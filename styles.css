@@ -74,14 +74,14 @@ body {
 
 /*div 1*/
 div.gen {
-    height: 100vh;
+    height: 60vh;
     background-color: darkblue;
     width: 26%;
 	padding: 8px;
     float: left;
 	margin: auto;
 	border: 2px solid black;
-	border-radius: 10px;
+	border-radius: 40px;
 }
 /*div 2*/
 div.response { 
@@ -93,7 +93,7 @@ div.response {
     text-align: center;	
 	margin: auto;
 	border: 2px solid black;
-	border-radius: 10px;
+	border-radius: 40px;
 	font-size: 1.5em;
 }
 
