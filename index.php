@@ -54,7 +54,7 @@
 		<section id="gGen">
 			<div class="gen">
 				<h2>Select<br> Category:</h2>
-				<p id="sel">   
+					<p id="sel">   
 
 					<select class="button" id="dropTunes" onchange="beba();">
 						<option value="choon">Choose Category</option>
@@ -87,26 +87,32 @@
 
 			</div>
 
+
+			<div class="response">
+				<p id="tuneParagraph">The Tune Generator Chooses:</p>
+
+				<p id="tune">Pick a Choon.</p>
+
+				<a id="zip" href="" download>
+					<button class="button">
+						<i class="fas fa-file-pdf"></i>       Download Tune
+					</button></a>
+
+				<a id="pdfdislplay" href="" target="_blank">
+				
+				<button
+				 class="button">Display Tune</button></a>
+
+				<br>
+			
+				<div id ="audioSection">
+				</div>
+
+
+			</div> 
+		
 		</section>
 
-		<div class="response">
-			<p id="tuneParagraph">The Tune Generator Chooses:</p>
-			<p id="tune">Pick a Choon.</p>
-			<a id="zip" href="" download>
-				<button class="button">
-					<i class="fas fa-file-pdf"></i>     
-					Download Tune</button>
-			</a>
-
-			<a id="pdfdislplay" href="" target="_blank">
-				<button class="button">Display Tune</button>
-			</a>
-			<br>
-			<div id ="audioSection">
-			</div>
-
-
-		</div> 
 
 	</body>
 
