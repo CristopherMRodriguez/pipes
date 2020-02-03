@@ -40,21 +40,23 @@
 					</li>
 				</ul>
 				
+				<h1 id="kingheader" class="topnav">Tune Generator</h1>	
+				<img id="bagpipe" src="bagpipe.jpg" alt="A Bagpipe">
+
+				
 			</div>
 
-			<img id="bagpipe" src="bagpipe.jpg" alt="A Bagpipe">
 
-			<h1>Tune Generator</h1>
 
 		</header>
 
 
 		<section id="gGen">
 			<div class="gen">
-				<h2>Select<br> Category</h2>
+				<h2>Select<br> Category:</h2>
 				<p id="sel">   
 
-					<select id="dropTunes" onchange="beba();">
+					<select class="button" id="dropTunes" onchange="beba();">
 						<option value="choon">Choose Category</option>
 						<option value="any"> I'm Feeling Lucky <span>&#9752;</span></option>
 						<!--<option value="9/8"> 9/8 </option>-->
