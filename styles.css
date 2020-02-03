@@ -1,19 +1,26 @@
+
 header {
     background-color: white;
     font-size: 1.6em;
-    font-family: monospace;
     border: 3px solid black;
 	border-radius: 20px;
-	width: 96%;
+	width: 95%;
 	padding: 20px
-}                            
+}     
 
 .topnav {
-  background-color: white;
   overflow: hidden;
-  font-size: 15px;
   text-decoration: none;
   padding: 7px;
+}
+
+header h1 {
+	font-size: 3.4em;
+	display: inline;
+}
+
+#kingheader{
+  margin-top: 50px;
 }
 
 .topnav a:link{
@@ -28,12 +35,13 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9; 
+  background-color: gainsboro; 
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
   font-size: 25px;
+  border: 2px solid black;
 }
 
 
@@ -41,34 +49,35 @@ header {
   display: block;
 }
 
-header h1 {
-  padding-left: 30%;
-}
+
 
 img#bagpipe {
 	width: 8%;
 	float: right;
-	padding-right: 30%;
+	padding-right: 1em;
 }
 
 h2 {
     text-align: center;
     color: white;
     font-size: 3.3em;
+	
 }
 
 body {
  background-image: url("scotland.jpg");    
  margin: 2em;
  height: 100vh;
+ font-family: monospace;
+
 }
 
 /*div 1*/
 div.gen {
-    height: 50vh;
+    height: 65vh;
     background-color: darkblue;
-    width: 24%;
-	padding: 10px;
+    width: 26%;
+	padding: 8px;
     float: left;
 	margin: auto;
 	border: 2px solid black;
@@ -76,40 +85,27 @@ div.gen {
 }
 /*div 2*/
 div.response { 
-    height: 50vh;
+    height: 65vh;
     background-color: darkolivegreen;
-    width: 70%;
+    width: 69%;
     padding: 10px;
     float: right;
     text-align: center;	
 	margin: auto;
 	border: 2px solid black;
 	border-radius: 10px;
+	font-size: 1.5em;
 }
 
 /* div1 buttons */
 p#sel, #buttonAgain {
     text-align: center;
-	
-}
-
-
+}	
 
 /*More Tunes button*/
 #buttonAgain {
-    margin: -20px -50px; 
-    position: relative;
-    top:50%; 
-	margin-top: 20px;
-
+	margin-top: 95px;
 }
-
-select {
-	height:30px; 
-	border: 2px solid black;
-    cursor: pointer;
-    }
-
 
 /*The Tune Generator Chooses*/
 p#tuneParagraph {
@@ -119,7 +115,8 @@ p#tuneParagraph {
 
 /* div2 tune response */
 p#tune {
-    font-size: 3.4em;
+	margin-top: 90px;
+    font-size: 3.8em;
 	color: white
 }
 
@@ -146,7 +143,7 @@ a:active{
 	border-radius: 15px;
 	margin: 10px;
 	font-weight: bold;
-	background-color: gainsboro;
+	background-color: whie;
 }
 
 audio {
