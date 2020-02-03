@@ -74,7 +74,7 @@ body {
 
 /*div 1*/
 div.gen {
-    height: 65vh;
+    height: 100vh;
     background-color: darkblue;
     width: 26%;
 	padding: 8px;
@@ -85,7 +85,7 @@ div.gen {
 }
 /*div 2*/
 div.response { 
-    height: 65vh;
+    height: 100vh;
     background-color: darkolivegreen;
     width: 69%;
     padding: 10px;
@@ -147,6 +147,7 @@ a:active{
 }
 
 audio {
+	margin: 15px;
 }
 
 #search-tune {
