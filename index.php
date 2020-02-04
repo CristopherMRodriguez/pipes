@@ -29,7 +29,7 @@
 
 				<a class="topnav" href="mailto:crod1234@gmail.com?Subject=Pipe%20Generator">Email</a> 
 				
-				<input class="topnav" type="text" id="search-tune" value="" placeholder="Search Tunes (Coming Soon)" onkeyup="searchFunction()" autocomplete="on" onBlur="gone()">
+				<input class="topnav" type="text" id="search-tune" value="" placeholder="Search Tunes (Soon)" onkeyup="searchFunction()" autocomplete="on" onBlur="gone()">
 				
 				<ul id="wrapper">
 					<li>
