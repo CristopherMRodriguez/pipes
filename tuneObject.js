@@ -93,7 +93,7 @@ let tuneObjArray = [
 
 {name: "Cutting Bracken", style: "2/4", mp3: "", pdf: "pdf/CuttingBrackenTune.pdf", zip: "pdf/CuttingBrackenTune.pdf.zip"},
 
-{name: "D Throw: Open Vs. Closed Exercises", style: "exercises", mp3: "", pdf: "pdf/.pdf", zip: "pdf/.zip"},
+{name: "D Throw: Open Vs. Closed Exercises", style: "exercises", mp3: "", pdf: "pdf/D-Throw.png", zip: "pdf/D-Throw.zip"},
 
 {name: "Danish Knifegrinder", style: "slowAir", mp3: "audio/danishknifegrindersspringsong.mp3", pdf: "pdf/DanishKnifegrinder_harmony3.pdf", zip: "pdf/DanishKnifegrinder_harmony3.pdf.zip", band: "4"},
 
@@ -109,15 +109,15 @@ let tuneObjArray = [
 
 {name: "Dora MacLeod", style: "strathspey", mp3: "audio/DoraMacLeod.mp3", pdf: "pdf/DoraMacLeod.pdf", zip: "pdf/DoraMacLeod.pdf.zip", band: "3"},
 
-{name: "Double Cut Tachum Exercises", style: "exercises", mp3: "", pdf: "pdf/.pdf", zip: "pdf/.zip"},
+{name: "Double Cut Tachum Exercises", style: "exercises", mp3: "", pdf: "pdf/dblCutTachum.png", zip: "pdf/dblCutTachum.zip"},
 
-{name: "Double Cut Trachums Exercises", style: "exercises", mp3: "", pdf: "pdf/.pdf", zip: "pdf/.zip"},
+{name: "Double Cut Trachums Exercises", style: "exercises", mp3: "", pdf: "pdf/dblCutTrachum.png", zip: "pdf/dblCutTrachum.zip"},
 
 {name: "Duncan MacInnes", style: "2/4", mp3: "", pdf: "pdf/DuncanMcInness.pdf", zip: "pdf/DuncanMcInness.pdf.zip"},
 
 {name: "Dunrovin Farm", style: "jig", mp3: "", pdf: "pdf/DunrovinFarm.pdf", zip: "pdf/DunrovinFarm.zip", solo: true},
 
-{name: "E/F Doublings Exercises", style: "exercises", mp3: "", pdf: "pdf/.pdf", zip: "pdf/.zip"},
+{name: "E/F Doublings Exercises", style: "exercises", mp3: "", pdf: "pdf/e-f-doublings.png", zip: "pdf/e-f-doublings.zip"},
 
 {name: "Eastern Townships", style: "slowAir", mp3: "", pdf: "pdf/EasternTownships.pdf", zip: "pdf/EasternTownships.pdf.zip"},
 
@@ -325,7 +325,7 @@ let tuneObjArray = [
 
 {name: "Steve Byrne's Jig", style: "jig", mp3: "audio/SteveByrne'sJig250bpm.mp3", pdf: "pdf/steveByrnesJig.pdf", zip: "pdf/steveByrnesJig.zip"},
 
-{name: "Strathspey Triplets Exercises", style: "exercises", mp3: "", pdf: "pdf/.pdf", zip: "pdf/.zip"},
+{name: "Strathspey Triplets Exercises", style: "exercises", mp3: "", pdf: "pdf/Strathspey-Triplets.png", zip: "pdf/Strathspey-Triplets.zip"},
 
 {name: "Tachums (all notes) Exercises", style: "exercises", mp3: "", pdf: "pdf/MTachums.pdf", zip: "pdf/MTachums.zip"},
 
