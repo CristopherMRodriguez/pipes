@@ -36,6 +36,8 @@ let tuneObjArray = [
 {name: "Balmoral", style: "3/4", mp3: "", pdf: "pdf/balmoral.pdf", zip: "pdf/balmoral.zip"},
 
 {name: "Battle of Waterloo", style: "2/4", mp3: "", pdf: "pdf/BattleWaterloo.pdf", zip: "pdf/BattleWaterloo.zip"},
+	
+{name: "Bengullion", style: "6/8", mp3: "", pdf: "pdf/Bengullion.pdf", zip: "pdf/Bengullion.pdf.zip"},
 
 {name: "Beverly's Wedding", style: "hornpipe", mp3: "audio/Beverlys.m4a", pdf: "pdf/BeverlysWedding.pdf", zip: "pdf/BeverlysWedding.pdf.zip", wedding: true},
 
@@ -73,9 +75,11 @@ let tuneObjArray = [
 
 {name: "Caledonian Society of London", style: "strathspey", mp3: "audio/CaledonianSocietyLondon.m4a", pdf: "pdf/CaledonianSociety.pdf", zip: "pdf/CaledonianSociety.zip"},
 
-{name: "CanongateKirk", style: "2/4", mp3: "", pdf: "pdf/CanongateKirk.pdf", zip: "pdf/CanongateKirk.zip"},
-
+{name: "Captain Alex Fraser", style: "reel", mp3: "", pdf: "pdf/CaptainAlecFraser.pdf", zip: "pdf/CaptainAlecFraser.pdf.zip"},
+	
 {name: "Captain Colin Campbell", style: "strathspey", mp3: "", pdf: "pdf/CaptColin.pdf", zip: "pdf/CaptColin.zip"},
+
+{name: "Captain Craig Brown", style: "6/8", mp3: "", pdf: "pdf/CaptainCraigBrown.pdf", zip: "pdf/CaptainCraigBrown.pdf.zip"},
 
 {name: "Charlie's Welcome", style: "reel", mp3: "", pdf: "pdf/Charlie'sWelcome.pdf", zip: "pdf/Charlie'sWelcome.pdf.zip"},
 
@@ -112,6 +116,9 @@ let tuneObjArray = [
 {name: "Double Cut Tachum Exercises", style: "exercises", mp3: "", pdf: "pdf/dblCutTachum.png", zip: "pdf/dblCutTachum.zip"},
 
 {name: "Double Cut Trachums Exercises", style: "exercises", mp3: "", pdf: "pdf/dblCutTrachum.png", zip: "pdf/dblCutTrachum.zip"},
+	
+{name: "Dr. Ross' 50th Welcome to Argyllshire Gathering", style: "6/8", mp3: "", pdf: "pdf/DrRoss.pdf", zip: "pdf/DrRoss.pdf.zip"},
+	
 
 {name: "Duncan MacInnes", style: "2/4", mp3: "", pdf: "pdf/DuncanMcInness.pdf", zip: "pdf/DuncanMcInness.pdf.zip"},
 
@@ -126,6 +133,8 @@ let tuneObjArray = [
 {name: "Embellishment Exercises", style: "exercises", mp3: "", pdf: "pdf/embellishments.pdf", zip: "pdf/embellishments.zip"},
 
 {name: "Ewe with the Crooked Horn", style: "strathspey", mp3: "audio/EweCrookedHorn.m4a", pdf: "pdf/Ewe.pdf", zip: "pdf/Ewe.zip"},
+	
+{name: "The Ferryman", style: "reel", mp3: "", pdf: "pdf/The Ferryman.pdf", zip: "pdf/The Ferryman.pdf.zip"},
 
 {name: "Ferryside Lassies", style: "jig", mp3: "", pdf: "pdf/FerrysideLasses.pdf", zip: "pdf/FerrysideLasses.pdf.zip"},
 
@@ -344,6 +353,8 @@ let tuneObjArray = [
 {name: "Trippin' Up the Stairs", style: "jig", mp3: "", pdf: "pdf/Tripping.pdf", zip: "pdf/Tripping.zip"},
 
 {name: "Valley of Knockanuer", style: "slowAir", mp3: "", pdf: "pdf/ValleyKnockeneur.pdf", zip: "pdf/ValleyKnockeneur.zip", funeralTrue: true},
+	
+{name: "Viscount of Dundee", style: "piob", mp3: "", pdf: "pdf/Viscount.pdf", zip: "pdf/Viscount.zip", funeralTrue: true, solo=true},
 
 {name: "Voltron", style: "hornpipe", mp3: "", pdf: "pdf/Voltron.pdf", zip: "pdf/Voltron.zip"},
 
