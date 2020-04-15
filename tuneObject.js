@@ -75,7 +75,7 @@ let tuneObjArray = [
 
 {name: "Caledonian Society of London", style: "strathspey", mp3: "audio/CaledonianSocietyLondon.m4a", pdf: "pdf/CaledonianSociety.pdf", zip: "pdf/CaledonianSociety.zip"},
 
-{name: "Captain Alex Fraser", style: "reel", mp3: "", pdf: "pdf/CaptainAlecFraser.pdf", zip: "pdf/CaptainAlecFraser.pdf.zip"},
+{name: "Captain Alec Fraser", style: "reel", mp3: "", pdf: "pdf/CaptainAlecFraser.pdf", zip: "pdf/CaptainAlecFraser.pdf.zip"},
 	
 {name: "Captain Colin Campbell", style: "strathspey", mp3: "", pdf: "pdf/CaptColin.pdf", zip: "pdf/CaptColin.zip"},
 
@@ -354,7 +354,7 @@ let tuneObjArray = [
 
 {name: "Valley of Knockanuer", style: "slowAir", mp3: "", pdf: "pdf/ValleyKnockeneur.pdf", zip: "pdf/ValleyKnockeneur.zip", funeralTrue: true},
 	
-{name: "Viscount of Dundee", style: "piob", mp3: "", pdf: "pdf/Viscount.pdf", zip: "pdf/Viscount.zip", funeralTrue: true, solo=true},
+{name: "Viscount of Dundee", style: "piob", mp3: "", pdf: "pdf/Viscount.pdf", zip: "pdf/Viscount.zip", funeralTrue: true, solo:true},
 
 {name: "Voltron", style: "hornpipe", mp3: "", pdf: "pdf/Voltron.pdf", zip: "pdf/Voltron.zip"},
 
