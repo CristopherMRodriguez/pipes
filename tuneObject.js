@@ -215,6 +215,8 @@ let tuneObjArray = [
 {name: "Lady of Knock", style: "slowAir", mp3: "", pdf: "pdf/LadyKnock.pdf", zip: "pdf/LadyKnock.zip", funeralTrue: true},
 
 {name: "Lament for the Old Sword", style: "piob", mp3: "", pdf: "pdf/LamentForOldSword.pdf", zip: "pdf/LamentForOldSword.pdf.zip", funeralTrue: true, piobTrue: true},
+	
+{name: "Lament for the Viscount of Dundee", style: "piob", mp3: "", pdf: "pdf/Viscount.pdf", zip: "pdf/Viscount.pdf.zip", funeralTrue: true, solo:true},
 
 {name: "Let Erin Remember", style: "4/4", mp3: "", pdf: "pdf/ErinRemember.pdf", zip: "pdf/ErinRemember.zip", funeralTrue: true},
 
@@ -353,8 +355,6 @@ let tuneObjArray = [
 {name: "Trippin' Up the Stairs", style: "jig", mp3: "", pdf: "pdf/Tripping.pdf", zip: "pdf/Tripping.zip"},
 
 {name: "Valley of Knockanuer", style: "slowAir", mp3: "", pdf: "pdf/ValleyKnockeneur.pdf", zip: "pdf/ValleyKnockeneur.zip", funeralTrue: true},
-	
-{name: "Viscount of Dundee", style: "piob", mp3: "", pdf: "pdf/Viscount.pdf", zip: "pdf/Viscount.zip", funeralTrue: true, solo:true},
 
 {name: "Voltron", style: "hornpipe", mp3: "", pdf: "pdf/Voltron.pdf", zip: "pdf/Voltron.zip"},
 
@@ -492,7 +492,7 @@ for (let i = 0; i < tuneObjArray.length; i++){
 
 const piob = [];
 for (let i = 0; i < tuneObjArray.length; i++){
-	if (tuneObjArray[i].piobTrue === true){ 
+	if (tuneObjArray[i].style === "piob"){ 
 		piob.push(tuneObjArray[i]);
 	}
 }
