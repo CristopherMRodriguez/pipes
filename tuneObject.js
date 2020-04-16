@@ -207,6 +207,8 @@ let tuneObjArray = [
 {name: "John MacDonald's Welcome to South Uist", style: "2/4", mp3: "audio/JohnMacdonaldsWelcome.m4a", pdf: "pdf/JohnMcDonaldSouthUist.pdf", zip: "pdf/JohnMcDonaldSouthUist.zip"},
 
 {name: "Kelly the Boy from Killane", style: "4/4", mp3: "", pdf: "pdf/Kelly.pdf", zip: "pdf/Kelly.zip"},
+	
+{name: "King George V's Army", style: "2/4", mp3: "", pdf: "pdf/KingGeorge.pdf", zip: "pdf/KingGeorge.pdf.zip"},
 
 {name: "Lachlan McPhail of Tiree", style: "reel", mp3: "audio/LachlanMcPhail.mp3", pdf: "pdf/LachlanMcPhail.pdf", zip: "pdf/LachlanMcPhail.zip", solo: true, soloReel: true},
 
