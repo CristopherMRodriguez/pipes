@@ -162,7 +162,7 @@ let tuneObjArray = [
 
 {name: "God Bless America", style: "4/4", mp3: "", pdf: "pdf/GodBlessAmerica.pdf", zip: "pdf/GodBlessAmerica.zip"},
 
-{name: "Gold Ring", style: "jig", mp3: "", pdf: "pdf/GoldRing", zip: "pdf/GoldRing.zip"},
+{name: "Gold Ring", style: "jig", mp3: "", pdf: "pdf/GoldRing.pdf", zip: "pdf/GoldRing.zip"},
 
 {name: "Going Home", style: "slowAir", mp3: "", pdf: "pdf/going-home.pdf", zip: "pdf/going-home.zip", funeralTrue: true},
 
