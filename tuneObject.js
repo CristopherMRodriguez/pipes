@@ -95,6 +95,8 @@ let tuneObjArray = [
 
 {name: "Cork Pipe Band of New York City", style: "4/4", mp3: "", pdf: "pdf/CorkPipebandNY.pdf", zip: "pdf/CorkPipebandNY.zip"},
 
+{name: "Crossing Noises", style: "exercises", mp3: "", pdf: "pdf/crossNoise.pdf", zip: "pdf/crossNoise.pdf.zip"},
+
 {name: "Cutting Bracken", style: "2/4", mp3: "", pdf: "pdf/CuttingBrackenTune.pdf", zip: "pdf/CuttingBrackenTune.pdf.zip"},
 
 {name: "D Throw: Open Vs. Closed Exercises", style: "exercises", mp3: "", pdf: "pdf/D-Throw.png", zip: "pdf/D-Throw.zip"},
@@ -154,7 +156,7 @@ let tuneObjArray = [
 
 {name: "Gardens of Skye", style: "4/4", mp3: "", pdf: "pdf/GardensSkyeTune.pdf", zip: "pdf/GGardensSkyeTune.pdf.zip"},
 
-{name:  "Garryowen", style: "6/8", mp3: "", pdf: "pdf/Garryowen.pdf", zip: "pdf/Garryowen.zip"},
+{name: "Garryowen", style: "6/8", mp3: "", pdf: "pdf/Garryowen.pdf", zip: "pdf/Garryowen.zip"},
 
 {name: "Ghillie Callum", style: "strathspey", mp3: "", pdf: "pdf/GhillieCallum.pdf", zip: "pdf/GhillieCallum.zip"},
 
@@ -339,6 +341,8 @@ let tuneObjArray = [
 {name: "Steve Byrne's Jig", style: "jig", mp3: "audio/SteveByrne'sJig250bpm.mp3", pdf: "pdf/steveByrnesJig.pdf", zip: "pdf/steveByrnesJig.zip"},
 
 {name: "Strathspey Triplets Exercises", style: "exercises", mp3: "", pdf: "pdf/Strathspey-Triplets.png", zip: "pdf/Strathspey-Triplets.zip"},
+
+{name: "An Exercise (Taps)", style: "exercises", mp3: "", pdf: "pdf/tapsEx.pdf", zip: "pdf/tapsEx.zip"},
 
 {name: "Tachums (all notes) Exercises", style: "exercises", mp3: "", pdf: "pdf/MTachums.pdf", zip: "pdf/MTachums.zip"},
 
