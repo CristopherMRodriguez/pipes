@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'FranklinGothicURWBook';
+  src: local('SirinStencil-Regular'),
+    url(./fonts/SirinStencil-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'FranklinGothicURWMed';
+  src: local('FranklinGothicURWMed'),
+    url(./fonts/SirinStencil-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'FranklinGothicStdBook';
+  src: local('FranklinGothicStdBook'),
+    url(./fonts/SirinStencil-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'FranklinGothicStdMed';
+  src: local('FranklinGothicStdMed'),
+    url(./fonts/SirinStencil-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'FranklinGothicStdDemi';
+  src: local('FranklinGothicStdDemi'),
+    url(./fonts/SirinStencil-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'FranklinGothicStdHvy';
+  src: local('FranklinGothicStdHvy'),
+    url(./fonts/SirinStencil-Regular.ttf) format('opentype');
+}
