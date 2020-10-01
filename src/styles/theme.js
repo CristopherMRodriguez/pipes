@@ -24,11 +24,12 @@ export const theme = {
   colors: {
     primary: {
       main: '#475310',
-      light: '#FFE600', // THIS COLOUR IS USED TEMPORARILY. NEED UI TEAM TO GIVE A PROPER LIGHT VERSION
+      light: '#FFE600', 
     },
     secondary: {
       main: '#EE982F',
       light: '#F6C282',
+      dark: "#000000"
     },
     danger: {
       main: '#ff3f3f',
@@ -47,6 +48,7 @@ export const theme = {
     white: '#fff', // Default white
     backgrounds: {
       home: '#475310',
+      light: '#FFE600',
       projects: '#302F2F',
       project: '#3F3F3F',
       gray: 'rgba(255,255,255, 0.1)',

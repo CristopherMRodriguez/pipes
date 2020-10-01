@@ -11,6 +11,7 @@ function IntroPage() {
         </h1>
       </S.Title>
     </S.Background>
+    
   );
 }
 

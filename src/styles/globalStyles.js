@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
   html, body, #root {
     min-height: 100vh;
     box-sizing: border-box;
@@ -13,22 +13,19 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
   }
   body {
-    font-family: ${(props) => props.theme.font.font1.book};
-    color: ${(props) => props.theme.colors.textPrimary.main};
-    font-size: 18px;
+    font-family: ${(props) => props.theme.font.font1.med};
+    color: ${(props) => props.theme.colors.primary.light};
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: "${(props) => props.theme.font.font1.hvy}";
-    color: ${(props) => props.theme.colors.textPrimary.main};
   }
   h1 {
     font-size: 80px;
+    transform: scaleY(1.3);
   }
   h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
   h3 {
-    font-family: ${(props) => props.theme.font.font1.demi};
     font-size: 28px;
   }
   h4 {
@@ -39,14 +36,15 @@ const GlobalStyle = createGlobalStyle`
   }
   h6 {
     font-size: 16px;
-    font-family: ${(props) => props.theme.font.font1.demi};
   }
   a {
-    font-family: ${(props) => props.theme.font.font1.book};
-    font-size: 17px;
-    color: ${(props) => props.theme.colors.textPrimary.main};
     text-decoration: none;
   }
-`;
+  button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+  }
+`
 
-export default GlobalStyle;
+export default GlobalStyles;

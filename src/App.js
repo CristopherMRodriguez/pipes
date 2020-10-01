@@ -1,16 +1,15 @@
 import React, {useState} from 'react';
 import './App.css';
-import IntroPage from "./Pages/IntroPage/IntroPage"
-import MainPage from "./Pages/MainPage/MainPage"
+import IntroPage from "./Pages/IntroPage/IntroPage";
+import MainPage from "./Pages/MainPage/MainPage";
+import SelectIdiom from "./Pages/SelectIdiomPage/SelectIdiom"
+
 
 
 function App() {
-  const index = 0;
 
   return ( 
-<div>
-  {index === 1 ? <IntroPage /> : <MainPage />}
-</div>
+    <MainPage />
   )
   
 }
